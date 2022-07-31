@@ -1,0 +1,11 @@
+.Sidebar {
+  grid-area: s;
+  border: solid 1px;
+  margin: 10px;
+
+}
+
+.Sidebar-link {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,5 @@
+.Main {
+  grid-area: m;
+  border: solid 1px;
+  margin: 10px;
+}

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-wrapper {
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+    "h h h"
+    "m m s"
+    "f f f";
+}
